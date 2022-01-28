@@ -1,0 +1,52 @@
+Types of Softwares in Java
+
+
+JDK and JRE
+Two types of Softwares are available
+
+
+Variable:- A variable is an identifier which is used to hold represnets some data.
+
+Syntax:- 
+datatype variablename;
+
+int,char,float,double, logn, boolean
+
+int age;
+
+3 types :- 1. local variables ---- which is used inside a method 
+	   2. static variables---- Class level variables 
+	   3. instance variables----
+Laptop ---100 objects for the same class
+Static variable is common for all the 100 instances
+instance variables
+
+JVM -------- Class Loader, Runtime Area and Execution Engine
+
+Deploying
+1. Production 
+2. Stage
+3. Test Environment
+
+4. Agile Method
+5. Waterfall method
+
+Writing The Code -----> Compile the code ----> JVM will run the code 
+
+English ---->Compiler will do that --->bytecode --->
+JVM ---> Interpreters+JIT compiler  ---> Machine OS    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
