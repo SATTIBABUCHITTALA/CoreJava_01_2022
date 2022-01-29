@@ -1,0 +1,6 @@
+Varaiables:- 
+Types of Variables 
+1. Local Varaibles
+2. instance variables
+3. Static variables
+
