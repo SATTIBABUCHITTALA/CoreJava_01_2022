@@ -1,0 +1,57 @@
+Datatypes in java :- 
+
+
+int age=30;
+String name="AshokIT";
+
+2 Types of Datatypes Available in java 
+1. Primitive Data Types
+2. Non-Primitive Datatypes
+
+Primitive Types                
+boolean
+int
+char
+float
+byte
+double
+long
+short 
+
+Non-Primivie Data Types:-
+Arrays
+Class
+String 
+
+1 bit ---boolean --true or false;
+1 byte --byte -127 0 +128 Integer
+2 bytes --char --Character
+2 bytes short ---Integer
+4 bytes --int ---Integer
+8 bytes --long  --Integer
+
+4 bytes--float (6 to 7) 10.3333333f
+8 bytes-- double (14 to 15) 10.3488987878787
+
+Static Block
+static 
+
+static {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+Identifiers, Datatypes 
+
+int name;
+
+Identfiers are going to helpful in recongnizaing 
+
+
+methods, classes, variables, interface
+
+
+public class EmployeeDetails{
+
+public static void main(String args[]){
+
+int empId;
+String empName;
+String empSalary;
+System.out.println("Hello World");
+
+}
+}
+6 Rules to write down the Identifiers:- 
+Rule 1:- Always contains Alphabet[a-z][A-Z],Numeric[0-9], _, $
+Ex:- String studentName;
+	String $PriceValue; ---Valid
+	int Value;
+
+	String &name;
+Rule 2:- There should not any space between identifier
+
+String stdName;
+String stdname;
+String std name;
+String std_name;
+
+Rule 3:- Length should be 4-15 characters 
+
+Rule 4:- It cant starts with numericvalue
+
+int 92Satti;
+
+Rule 5:- Case Sensitvie
+
+String stdname;
+String stdName;
+
+
+Rule 6:- Reseve keywords cant be used as Identifiers.
+
+class,int,float,double,interface,extends,boolean,transient,
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
