@@ -1,0 +1,66 @@
+Static block is a block which contains set of statement those are executed before 
+the main method. 
+static keyword will be used in variables,innerclasses, methods,blocks
+
+static {
+
+
+}
+Initialized Block:- Initialized block is a block of statement which is 
+executed whenever we create an instance for that particular class
+
+{
+System.out.println("Initilized ");
+}
+
+Student std=new Student()
+
+
+Type casting:- converting one datatype value to another data type value.
+
+int x=10;
+byte b=(byte)x;  ---b is called target
+		---x source
+1. Widening Type casting (Auto Conversion) Implict
+2. Narrowing typecasting (Explicit)
+
+int,float,double,short,byte,long
+
+byte--->short --->int --->long--- >float(6-7)--->double(precision)14-15
+
+double--->float--->long--->int---->short--->byte
+
+byte b=120;
+int x=(int)b;
+
+Conditional Statement:- Statment will be executed based on the Condition 
+
+if(condition){
+
+
+}
+condition returns either true or false;
+
+int x=5;
+if(x==5){
+System.out.println("X value is equal to 5");
+}
+4 Types of If conditions are available in java
+1. If Condition 
+2. If else Condition 
+3. If-else-if condition 
+4. multiple if condition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
