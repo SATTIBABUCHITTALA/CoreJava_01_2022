@@ -1,0 +1,27 @@
+
+
+
+byte--->short->int-->long-->float-->double
+
+
+Conditional Statement:- If
+1. if
+2. if-else
+3.if-else-if
+4. nested if
+
+Operators:- Operator is a symbol which tell the compiler to do some operation
+ on the operands
+int i=10;
+int j=20;
+int k=i+j;
+
+1. Arithmetic Operators
+2. Relational Operators
+3. Logical Operators
+4. Bitwise Operators
+5. Conditional Operator
+6. Assignment Operators
+
+
+
