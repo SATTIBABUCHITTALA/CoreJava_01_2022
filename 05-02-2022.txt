@@ -1,0 +1,90 @@
+
+Switch Statement:- If there are multiple conditions to check instead of writing multiple 
+if blocks. Swich condition can be used
+
+day=7;
+switch(""){
+
+case 1:
+break;
+
+case 2:
+break;
+
+case 3:
+
+
+default:
+
+}
+
+// Looping statements(Conditional Statements)
+13
+1x13 =13
+2x13 =26
+
+
+
+20 times
+
+repetetive Tasks will be executed 
+1. for loop
+2. while
+3. do-while
+
+for loop:- if we know the how many times i am going to repeat then we will choose for loop
+
+for(initialization;condition;increment/decrement){
+
+}
+
+int k=13;
+for(int i=1;i<=10;i++){ i=1;k=13
+			i=2;2<=10; 2X13 26
+			i=3;3<=10;3X13 =39
+			i=4;4<=10;4X13=52
+			
+
+			i=10;10<=10;10x13 =130;
+			i=11;11<=11;
+
+System.out.println(i*k); 
+		(1 X 13 = 13);
+		
+
+}
+
+for-each loop:-
+
+
+
+for(type var:list){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(condition){
+
+
+}
+if(condtion){
+
+
+}
+if(condtion){
