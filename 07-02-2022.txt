@@ -1,0 +1,29 @@
+For Each Loop:- 
+
+Type of for loop. Uses when we deal with list of Elements.
+
+for loop fails why because the condition and exit point is not in my control.
+
+while Loop:- It checks the condtion and executes untill the condtion fails . 
+
+while(condtion){
+
+System.out.println("kajf");
+
+
+}
+do-while loop is also there:- it executes the block of statement 
+atleast once and verify the condtion.
+
+do {
+
+
+}while(condition);
+
+
+
+
+
+
+
+
