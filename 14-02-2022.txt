@@ -1,0 +1,86 @@
+Single Inheritance:-
+Aquiring properties from only one class is called single Inheritance.
+Ex:- class A{
+	
+void getValue(){}
+}
+class B{
+
+}
+
+B b=new B();
+b.getValue();
+
+Hybrid Inheritance:- If one class aquring properties from one or more classes those are in 
+.It is a combination of Multiple and Multilevel Inheritance.Those classes are in  parent-child relationship.
+
+
+class A{ //Grand Father
+
+void getValue(){
+System.out.println("A");
+}
+}
+class B extends A{ //father
+
+void getValue(){
+System.out.println("B");
+}
+
+}
+class C extends B{ // YOU and Me 
+
+}
+C c =new C();
+c.getValue(); //B
+
+Multiple Inheritance:- One class aquring properties from more than
+ one independent classes.
+class A{
+void getValueA(){syso"A"}
+void getValue(){}
+}
+class B {
+void getValueB(){syso"B"}
+void getValue(){}
+}
+Note:- One class can't extends more than one class. 
+
+
+
+class C extends A, B{
+
+void getValueC(){syso("C")}
+
+}
+
+C c=new C();
+c.getValueC(); //C
+c.getValueB(); //B
+c.getValueA();// A
+c.getValue(); //Ambiguity 
+
+
+Multi level Inheritance:-One class is inherited by more than one class is calle multi level inheritance
+
+
+class A{
+
+}
+
+
+class B extends A{
+
+}
+class C extends A{
+
+}
+
+
+
+
+
+
+
+
+

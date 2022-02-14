@@ -1,0 +1,121 @@
+OOPS Concepts:- 
+Object Oriented Programming
+
+OOPS Concepts:- 
+Class:- Class is a blue print which has certian attributes and behaviors
+methods and Variables. We create objects to access these methods and variables.
+
+class Car{
+
+String typeOfCar;
+String brandOfTheCar;
+int typeOfTubes;
+double price;
+String typeOfFule;
+double milage;
+
+void startTheEngine(){
+
+
+}
+
+void stopTheEngine(){
+
+}
+void accelerate();
+
+}
+double getSpeed(){
+
+}
+
+
+}
+
+Maruti --- is also called a class -----object.
+
+
+//Maruti is also another class which follows some behaviors from Car Class.
+//Maruti will desing a Car which follows these behaviors
+
+HUMAN is a class Male is also a class Satti Babu is an object.
+
+Female is also a class Bindu,Srujana They are object
+
+
+FOR ALL THE CLASSES 
+OBJCET IS A SUPER CLASS
+
+java.lang.Object
+
+Object:- Object is an instance of a class. It is a real time entity. It is used to acces
+the properties of a class. 
+
+Inheritance:- Aquiring properties from one class to another class is called inheritance.
+Why do we need inheritance?
+Because to avoid the redundancy.
+class Human{
+
+
+}
+class Male{
+
+}
+class Car{
+}
+
+Car car=new Car();
+
+class Maruti extends Car{
+
+
+}
+How many types of Inheritance:- 
+1. Single Inheritance
+	class A{
+		void getValue(){
+		}
+	}
+class B {
+	void getValue(){
+		}
+}
+
+class C extends A,B{
+
+}
+
+B b=new B();
+C c=new C();
+c.getValue();
+
+b.getValue();
+Note:- A class can aquire properties from only one class
+class B extends A
+class B extends A,C;
+
+
+
+
+2. Hybrid Inheritance
+3. Multi level Inheritance
+4. Multiple Inheritance
+
+Polymorphism
+Encapsulation
+Abstraction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
