@@ -1,0 +1,106 @@
+How to achieve the multiple inheritance in java?
+
+by using interface 
+
+
+
+How ?
+Interface:- Interface is a mechanism to achieve the Abstraction.
+interface service1{
+
+void getValue(); //Declared a method . Abstract method 
+
+}
+interface service2{
+void getValue(); 
+}
+
+class A implements service1,service2{
+@override
+void getValue(){} //Method implimentation  
+}
+//
+A a =new A();
+a.getValue();
+
+1. class
+2. Object
+3. Inheritance
+4. Abstraction:- Hiding the irrelevant data from 
+the user is called abstraction
+
+class Employee{
+double getSalaryOfAnEmployee(String empId){
+double salary;
+logic
+return salary;
+
+}
+}
+
+Employee emp=new Employee();
+emp.getSalaryOfAnEmployee("101F");
+
+5. Polymorphism:- 
+The same method behavior will be different .Action will be different. 
+1. Compile Time polymorphism (Method Overloading)
+2. Runtime Polymorphism (Method Overriding)
+
+
+
+Employee 
+2021 --jan ---double getSalary(String empId){}
+
+2022 --jan--double getSalary(String empId, String empName){}
+
+double getSalary(String empId,String empName,String panNo){}
+
+Method Overloading:- Method name will be same but parameters will be variant. 
+
+emp.getSalary("101");
+emp.getSalary("101","Satti Babu");
+
+Method Overriding:- Method name same method parameters same but 
+implementation will be different
+in subclass. Method overriding will be happen in super and Subclass. 
+
+class A{
+void getA(){
+
+}
+}
+class B extends A{
+
+@override 
+void getA(){
+implementation will be different.
+}
+
+}
+
+B b=new B();
+b.getA();
+
+Encapsulation:- Wrapping up the whole data into a single unit means class. 
+It is called Encapsulation. it helps to achieve the Abstraction in java.
+Class members can't be accessed without creating an object.  
+
+B b=new B();
+b.getA();
+
+ICICI{
+
+getAccountDetails(){}
+getDebitAmount(){}
+credeitAmount(){}
+}
+Icici icic=new Icici();
+icici.getAccountDetails()
+UI Angular, html, jsp, ---> Servlets, Frameworks
+Fullstack -- yes you need
+Back end Developer --- java 
+
+
+
+
+1000 --> proceeed ---->  Webservices --> Gateway---> Java code will be there
