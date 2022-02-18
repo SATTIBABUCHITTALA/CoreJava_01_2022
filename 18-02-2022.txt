@@ -1,0 +1,103 @@
+
+
+public A(){
+
+}
+Constructor Overloading:- Multiple constructors with different parameters. 
+is called Constructor overloading.
+
+Private Constructor:- A constructor which is created by using private 
+access modifier is called private constructor.
+It is used to restrict the creation of object of that class outside.
+
+
+Advantage of Private constructor:- To avoid creating object for that class
+
+class A{
+
+private A(){}
+
+}
+A a=new A(); //new object
+A a1=new A(); //new object 
+A a2=new A(); //new object 
+When do you use Private Constructor?
+
+What is a singleton Class ? 
+A class which can be provided only one instance through out the application/jvm
+ is called singleton class.
+Ex:- Database Connection, User Name, Passwords
+
+How can we make a class as a singleton ?
+
+public class Student{
+
+private Student(){}
+
+public static Student studentObject=null; //class level variable it holds the object of the particular class
+ 
+
+public Synchronized static Student getObject(){
+
+if(studentObject ==null){
+return new Student();
+
+}else{
+return studentObject;
+}
+
+}
+What is constructor chaining?
+Calling one constructor from another constructor is called Constructor Chaining. 
+we use this() to call the constructor with in the same class.
+this is a keyword which represents the current object. 
+Note:- This should be the first statement in a constructor.
+If u want to call another constructor from constructor that should be the first statement/
+
+class A{
+
+public A(){
+this(10);
+}
+public A(int a){
+
+}
+
+}
+
+
+
+Access Modifiers:- 
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+DataConnection connection =new DataConnection();
+
+100 connections 
+performance will get impact. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
