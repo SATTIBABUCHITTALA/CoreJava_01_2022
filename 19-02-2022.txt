@@ -1,0 +1,61 @@
+private A(){}
+It makes that class as a singleton class. 
+
+
+A a =new A();
+
+Class Student{
+
+1. private Student(){}
+
+2. static Student studentObj=null;
+
+static Student getObject(){
+
+if(studentObj ==null){
+studentObj=new Student();
+return studentObj;
+}else {
+return studentObj;
+
+}
+
+} 
+}
+
+It provides only one instance through out the Application. 
+
+Access Modifiers :- Access Modifiers are the keywords which restricts the access of a 
+class, method, constructor, variables.
+Scope of a varaibles
+
+Public:- The member will be accessible thorough out the Application 
+Default:- With in the same package.
+Protected:- With in the same package and all sub classes. 
+private:-  with in the same class only.
+
+Applications:- 
+
+com.ashokIt.operators
+class Operator{
+
+ protected int num;
+}
+class Operators extends Operator{
+
+}
+com.ashokId.loopingStaement
+
+Same Package
+default scope
+
+
+
+
+
+
+
+
+
+
+
