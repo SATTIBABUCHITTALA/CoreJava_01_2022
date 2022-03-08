@@ -1,0 +1,30 @@
+Am I Audbile ?
+
+Is java pass by value or reference?
+
+
+
+void getValue(int num1,num2){
+
+num1=30;
+num2=345;
+}
+
+int num1=15;
+int num2=20;
+getValue(num1, num2);// u r just passing the copy of the variables;
+
+
+Nested Classes:-
+
+class A{
+
+
+class B{
+
+}
+
+}
+
+
+

@@ -1,0 +1,172 @@
+
+Association one-one one-many many-many many-one
+Aggregation 
+Composition 
+
+System.gc();
+
+call by value:-getValue(a, b);
+
+Nested Classes:-
+
+A class which is defined inside an another class is called nester class.
+
+1. It improves the encapsulation
+2. It will allow to access the class directly without using Outer class reference.
+3. More readable and maintainable code.
+
+Types of Nested classes 
+1. static nested classes
+2. non-static nested classes
+
+private,public,default, protected
+
+class Outer{
+
+static String var="AshokIT";
+String name;
+
+static class Inner{
+
+String innerVariable="";
+}
+
+}
+Inner class can access the properties of an outerclass 
+but not vice versa.
+
+Non Static Innerclass:- It has been divided into 3 types
+1. Member class :- A class which is defined inside a class but outside the method is called
+Member class.
+
+class Outer{
+
+class Inner{
+
+}
+
+
+
+
+}
+2. Local  class:- A class which is defined inside a method is called Local class
+
+class Outer{
+
+void getDetails(){
+
+for(int i=0;i<10;i++){
+
+
+
+}
+class Inner{
+
+
+}
+
+}
+
+}
+
+3. Ananymous inner class:- 
+
+No name for the class is called an ananymous inner class
+A class which is defined witout a name is called ananymous inner class
+
+Student std=new Student(){
+void test(){
+
+}
+
+}
+Ananymous inner class is used to instatiate an Interface.
+
+interface StudentService{
+
+void getDetails();
+
+
+}
+
+public class Student implements StudentService{
+
+public void getDetails(){
+Syso("Details are");
+}
+
+}
+
+Student student =new Student();
+student.getDetails();
+
+
+
+stdService.getDetail(){
+
+
+}
+Ananymous Innerclass 
+interface StudentService{
+
+void getDetails();
+
+
+}
+Student studentDetails =new Student();
+Student stdDetails=new Student();
+StudentService service=new StudentService(){
+
+void getDetails(){
+
+}
+};
+
+
+Student outerClass =new Student();
+InnerClass inrClass=outerClass.new  InnerClass();
+service.getDetails();
+
+
+can you create reference for an Interface?
+No. But we can create by using the concept of Ananymous innerclass 
+StudentService stdService =new StudentService(){
+
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+String Handling:- 
+
+String str="AshokIT";
+String:- It is a sequence of Characters. It is immutable object. An object whose state
+cant be changed once it is created. 
+
+String str="Ashok";
+str="AshokIT";
+
+Heap memory
+
+String constant pool Heap
+
+
+String literals
+new keyword
+
+String str="AshokIT"; //It will be stored in the string constant pool.
+
+String str=new String(); // It will be stored in the heap memory.
+
+
+String str="Java";
+String str2="Java"; only one reference will be created insde the 
+String constant pool;
+
+String str=new String("Java");
+String str2=new String("Java");
+
+String implements certains interfaces:-
+Serializable, Comparable,charSequence;
+
+final String="123";
+
+String str="123";
+str="Satti";
+
+why String is immutable?
+
+String are used to deal with the sensitive data 
+like IO operations, files, Database connections.
+
+How can u make a class as a immutable class?
+
+String comparision:- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
